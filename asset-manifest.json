@@ -1,13 +1,13 @@
 {
   "main.css": "/react-ckeditor/static/css/main.56a946c9.chunk.css",
-  "main.js": "/react-ckeditor/static/js/main.36be7bc4.chunk.js",
-  "main.js.map": "/react-ckeditor/static/js/main.36be7bc4.chunk.js.map",
-  "static/js/1.15f9c6a4.chunk.js": "/react-ckeditor/static/js/1.15f9c6a4.chunk.js",
-  "static/js/1.15f9c6a4.chunk.js.map": "/react-ckeditor/static/js/1.15f9c6a4.chunk.js.map",
+  "main.js": "/react-ckeditor/static/js/main.e068b6cb.chunk.js",
+  "main.js.map": "/react-ckeditor/static/js/main.e068b6cb.chunk.js.map",
+  "static/js/1.abd6848c.chunk.js": "/react-ckeditor/static/js/1.abd6848c.chunk.js",
+  "static/js/1.abd6848c.chunk.js.map": "/react-ckeditor/static/js/1.abd6848c.chunk.js.map",
   "runtime~main.js": "/react-ckeditor/static/js/runtime~main.78ec7753.js",
   "runtime~main.js.map": "/react-ckeditor/static/js/runtime~main.78ec7753.js.map",
   "static/css/main.56a946c9.chunk.css.map": "/react-ckeditor/static/css/main.56a946c9.chunk.css.map",
   "index.html": "/react-ckeditor/index.html",
-  "precache-manifest.25f2d135d98d48e7bea9247a02cc740e.js": "/react-ckeditor/precache-manifest.25f2d135d98d48e7bea9247a02cc740e.js",
+  "precache-manifest.0565a173b51cb62d0f38508357d94ea3.js": "/react-ckeditor/precache-manifest.0565a173b51cb62d0f38508357d94ea3.js",
   "service-worker.js": "/react-ckeditor/service-worker.js"
 }
