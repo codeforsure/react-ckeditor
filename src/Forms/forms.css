@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+.main {
+  background: radial-gradient(ellipse farthest-corner at center top, #d8dbe2 0%, #a9bcd0 100%);
+  height: 100vh;
+  font-family: "Noto Sans", sans-serif;
+  background: #FFA500;
+}
+.Mainform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #FFFFFF;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+
+}
+.Mainform h1 {
+  position : absolute;
+  display: block;
+  font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    margin: -350px 0 0px -70px;
+}
+.Mainform p {
+  display: block;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 0 10px 0;
+  margin: 10px;
+}
+.Mainform Link {
+  text-decoration: underline;
+}
+.marquee{
+  font-size: 3em;
+  color: black;
+}
+.Input {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  border-bottom: 1px solid #000000;
+  margin: 0 20px;
+}
+.Input input {
+  border: 0;
+  background: transparent;
+  padding: 2px 10px;
+  margin: 18px 4px 0 4px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+}
+
+label {
+  font-family: FontAwesome;
+  color: white;
+  font-size: 14px;
+  margin-top: 17px;
+  transition: opacity 0.3s ease-in-out;
+}
+label::before {
+  padding: 5px 5px 0 0;
+  opacity: 0.5;
+}
+form button {
+  position: relative;
+  margin: 15px 0 5px 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  width: 85%;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+.button1{
+  margin: -340px 0 0px 1000px;
+  background-color: #000000;
+  border: 1px ;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}

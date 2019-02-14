@@ -1,28 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Loginform from "./Forms/Loginform";
+import Homepage from "./components/Homepage"
+import Registerform from "./Forms/Registerform";
+import {BrowserRouter,Route,Redirect} from 'react-router-dom';
+import Welcome from "./components/Welcome.js";
+import UserHome from "./components/wel_comp/UserHome";
+import Complaint from "./components/wel_comp/Complaint";
+import AllComplaints from "./components/wel_comp/AllComplaints";
+import PrivateRoute from "./PrivateRoute";
+import Session from "./session";
+import Sample from "./components/wel_comp/sample"
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <BrowserRouter>
+        <div>
+          <Route path = {"/"} component = {Homepage} exact />
+          <Route path = {"/register"} component ={Registerform}/>
+          <Route path = {"/error"} component ={Session} />
+          <Route path = {"/sample"} component ={Sample} />
+          <PrivateRoute path = {"/welcome"} ><Welcome /></PrivateRoute>
+        </div>
+      </BrowserRouter>
+
     );
   }
 }
-
 export default App;

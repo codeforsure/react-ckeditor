@@ -1,0 +1,35 @@
+
+.post {
+  box-sizing: border-box;
+    width: 100%; /* or less */
+    display: inline-block;
+    border: 1px solid white;
+    /* border-radius: 30px; */
+    margin: 4px;
+    background: #FFFFFF;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.post button{
+  padding:10px;
+  float :right;
+  border: none;
+background: none;
+text-decoration: underline;
+cursor:grab;
+font-family: "Lucida Grande", Geneva, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: blue;
+}
+.b{
+  margin-top: 4px
+}
+
+.post h3 {
+	margin: 10px;
+  box-sizing: border-box;
+    width: 50%; /* or less */
+    display: inline-block
+}
+.post p{
+  text-indent: 50px;
+}
